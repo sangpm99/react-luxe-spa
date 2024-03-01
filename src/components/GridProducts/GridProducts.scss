@@ -1,0 +1,56 @@
+.grid-products {
+  .box {
+    cursor: pointer;
+
+    .small {
+      height: 20rem;
+    }
+
+    .image-box {
+      position: relative;
+      overflow: hidden;
+
+      @media (max-width: 1024px) {
+        height: 15rem;
+        display: flex;
+        justify-content: center;
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 50%;
+        height: 100%;
+        background-color: rgba(250,247,242, 0.3);
+        transform: skewX(45deg) translateX(400%);
+        transition: all 1s ease;
+      }
+
+      &:hover::before {
+        transform: skewX(45deg) translateX(-400%);
+      }
+
+      img {
+        transition: all 0.5s ease-in-out;
+      }
+    }
+
+    .product-name {
+      transition: all 0.5s ease-in-out;
+    }
+
+    &:hover {
+      .product-name {
+        color: var(--primary)
+      }
+    }
+
+    .info {
+      p {
+        line-height: 3rem;
+      }
+    }
+  }
+}

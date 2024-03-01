@@ -1,0 +1,44 @@
+.header {
+  height: 6rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  z-index: 99;
+  background-color: var(--color-header);
+
+  @media (max-width: 1024px) {
+    height: 4rem;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .navbar {
+    li {
+      margin-left: 0;
+      margin-right: 2rem;
+    }
+
+    a {
+      transition: all 0.25s ease-in-out;
+
+      &:hover {
+        color: var(--primary);
+      }
+    }
+
+    .active {
+      color: var(--primary);
+    }
+  }
+
+  .logo {
+    width: 12rem;
+    height: 12rem;
+    margin-top: 8rem;
+
+    @media (max-width: 1024px) {
+      width: 8rem;
+      height: 8rem;
+      margin-top: 0;
+    }
+  }
+}

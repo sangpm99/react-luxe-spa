@@ -1,0 +1,40 @@
+.footer {
+  .copyright {
+    border-top: 1px solid #ccc;
+  }
+
+  .title {
+    border-bottom: 1px solid #ccc;
+  }
+
+  .icon {
+    font-size: 200%;
+    border: 1px solid #000;
+    padding: 0.25rem;
+    border-radius: 50%;
+
+    &:hover {
+      animation: zoomInOut 1s ease-in-out forwards;
+    }
+  }
+
+  .icon-2 {
+    font-size: 200%;
+
+    &:hover {
+      animation: zoomInOut 1s ease-in-out forwards;
+    }
+  }
+}
+
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.7);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}

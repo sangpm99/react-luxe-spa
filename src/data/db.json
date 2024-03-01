@@ -1,0 +1,153 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Massage"
+    },
+    {
+      "id": 2,
+      "name": "Liệu trình"
+    },
+    {
+      "id": 3,
+      "name": "Sản phẩm"
+    }
+  ],
+
+  "massages": [
+    {
+      "id": 1,
+      "name": "Massage đá nóng",
+      "image": "massage-1.jpg",
+      "originalPrice": 150000,
+      "actualPrice": 99000,
+      "star": 5
+    },
+    {
+      "id": 2,
+      "name": "Massage chân",
+      "image": "massage-2.jpg",
+      "originalPrice": 100000,
+      "actualPrice": 49000,
+      "star": 5
+    },
+    {
+      "id": 3,
+      "name": "Massage lưng",
+      "image": "massage-3.jpg",
+      "originalPrice": 75000,
+      "actualPrice": 45000,
+      "star": 4
+    },
+    {
+      "id": 4,
+      "name": "Massage da đầu",
+      "image": "massage-4.jpg",
+      "originalPrice": 100000,
+      "actualPrice": 75000,
+      "star": 5
+    },
+    {
+      "id": 5,
+      "name": "Massage toàn thân",
+      "image": "massage-5.jpg",
+      "originalPrice": 400000,
+      "actualPrice": 299000,
+      "star": 5
+    },
+    {
+      "id": 6,
+      "name": "Massage đá lạnh",
+      "image": "massage-6.jpg",
+      "originalPrice": 150000,
+      "actualPrice": 99000,
+      "star": 4
+    }
+  ],
+
+  "treatments": [
+    {
+      "id": 1,
+      "name": "Châm cứu",
+      "image": "treatment-1.jpg",
+      "originalPrice": 400000,
+      "actualPrice": 350000,
+      "star": 5
+    },
+    {
+      "id": 2,
+      "name": "Giác hơi",
+      "image": "treatment-2.jpg",
+      "originalPrice": 350000,
+      "actualPrice": 299000,
+      "star": 5
+    }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "name": "Daily Moisturizing Cream",
+      "image": "product-1.png",
+      "originalPrice": 400000,
+      "actualPrice": 299000,
+      "star": 5
+    },
+    {
+      "id": 2,
+      "name": "Light Moisturising Cream",
+      "image": "product-2.png",
+      "originalPrice": 350000,
+      "actualPrice": 249000,
+      "star": 4
+    },
+    {
+      "id": 3,
+      "name": "Nourishing Skin Cream",
+      "image": "product-3.png",
+      "originalPrice": 350000,
+      "actualPrice": 249000,
+      "star": 5
+    },
+    {
+      "id": 4,
+      "name": "Dry Skin Lotion",
+      "image": "product-4.png",
+      "originalPrice": 200000,
+      "actualPrice": 149000,
+      "star": 4
+    },
+    {
+      "id": 5,
+      "name": "Brightening Serum",
+      "image": "product-5.png",
+      "originalPrice": 400000,
+      "actualPrice": 349000,
+      "star": 5
+    },
+    {
+      "id": 6,
+      "name": "Antioxidant Serum",
+      "image": "product-6.png",
+      "originalPrice": 400000,
+      "actualPrice": 349000,
+      "star": 5
+    },
+    {
+      "id": 7,
+      "name": "Anti-Aging Serum",
+      "image": "product-7.png",
+      "originalPrice": 500000,
+      "actualPrice": 449000,
+      "star": 4
+    },
+    {
+      "id": 8,
+      "name": "Hydrating serum",
+      "image": "product-8.png",
+      "originalPrice": 350000,
+      "actualPrice": 299000,
+      "star": 5
+    }
+  ]
+}

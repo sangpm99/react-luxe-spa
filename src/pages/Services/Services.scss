@@ -1,0 +1,30 @@
+.services {
+  .title {
+    line-height: 5rem;
+    border-color: var(--primary);
+
+    @media (max-width: 1024px) {
+      line-height: 2rem;
+    }
+  }
+
+  ul {
+    .active {
+      background-color: var(--secondary);
+      color: white;
+    }
+
+    @media (max-width: 1024px) {
+      display: flex;
+    }
+
+    li {
+      transition: all 0.125s ease-in-out;
+
+      &:hover {
+        background-color: var(--secondary);
+        color: white;
+      }
+    }
+  }
+}

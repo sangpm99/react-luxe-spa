@@ -1,0 +1,2 @@
+main:	#738B69
+sub:	#CDB79E

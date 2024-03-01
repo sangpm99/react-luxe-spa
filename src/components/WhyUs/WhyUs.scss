@@ -1,0 +1,33 @@
+.why-us {
+  background-color: var(--color-dark-skin);
+
+  .image-box {
+    overflow: hidden;
+  }
+
+  .image-box-left {
+    border-radius: 2rem 2rem 15rem 2rem;
+
+    @media (max-width: 1024px) {
+      border-radius: 1rem;
+    }
+  }
+
+  .image-box-right {
+    border-radius: 15rem 2rem 2rem 2rem;
+
+    @media (max-width: 1024px) {
+      border-radius: 1rem;
+    }
+  }
+
+  .text-box {
+    .title {
+      font-size: 3rem;
+
+      @media (max-width: 1024px) {
+        font-size: 2rem;
+      }
+    }
+  }
+}

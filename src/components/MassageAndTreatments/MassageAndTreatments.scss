@@ -1,0 +1,42 @@
+.massage-and-treatments {
+  .image-box {
+    .image {
+      transition: all 0.5s ease-in-out;
+      border-radius: 1rem;
+      position: relative;
+      cursor: pointer;
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.4);
+        background-image: url("../../assets/images/search.png");
+        background-size: 3rem;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        transition: all 0.5s ease-in-out;
+        opacity: 0;
+      }
+
+      img {
+        width: 100%;
+        height: 40vh;
+        object-fit: cover;
+        cursor: pointer;
+      }
+    }
+
+    &:hover {
+      .image {
+        &::after {
+          background-position: center;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
