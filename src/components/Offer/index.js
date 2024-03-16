@@ -7,7 +7,7 @@ function Offer() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
     const finish = new Date();
     finish.setDate(14);
-    finish.setMonth(2); // March is month number 2
+    finish.setMonth(4);
     finish.setHours(0);
     finish.setMinutes(0);
     finish.setSeconds(0);
@@ -53,7 +53,7 @@ function Offer() {
                         <br/>
                         <br/>
                     </p>
-                    <p className="text-sm lg:text-lg">Ưu đãi khả dụng trong :</p>
+                    <p className="text-sm lg:text-lg">Thời hạn ưu đãi :</p>
                     <div className="w-full flex space-x-3 mt-4">
                         <div className="w-2/12 lg:w-2/12 p-1 lg:p-5 flex justify-center items-center box">
                             <p className="text-xs lg:text-xl text-center">
